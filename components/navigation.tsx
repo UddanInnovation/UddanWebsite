@@ -24,7 +24,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-r from-red-500 via-orange-500 to-blue-500 rounded-lg"></div>
-            <span className="text-xl font-bold text-gray-900">InnovateTech</span>
+            <span className="text-xl font-bold text-gray-900">Uddan</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -30,7 +30,7 @@ const projects = [
   {
     id: 3,
     title: "Cloud Infrastructure Migration",
-    category: "Deployment",
+    category: "Infrastructure",
     description: "Migrated legacy systems to AWS with 99.9% uptime and 40% cost reduction.",
     image: "/placeholder.svg?height=300&width=400",
     technologies: ["AWS", "Kubernetes", "Terraform", "Jenkins"],
@@ -69,7 +69,7 @@ const projects = [
   },
 ]
 
-const categories = ["All", "Development", "Deployment", "Marketing", "AI/ML"]
+const categories = ["All", "Development", "Infrastructure", "Marketing", "AI/ML"]
 
 export default function WorksPage() {
   const [selectedCategory, setSelectedCategory] = useState("All")
