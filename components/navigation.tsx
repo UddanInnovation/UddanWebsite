@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from 'next/image';
 import { Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
@@ -18,13 +19,17 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-gray-100">
+    <header className="sticky top-0 z-50 w-full bg-white  border-b border-gray-100">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-red-500 via-orange-500 to-blue-500 rounded-lg"></div>
-            <span className="text-xl font-bold text-gray-900">Uddan</span>
+          <Link href="/" className="flex items-center space-x-2 ml-8">
+            <Image
+              src="/logo.svg" // Path relative to the public folder
+              alt="Description of my image"
+              width={160} // Adjust width as needed
+              height={0} // Adjust height as needed
+            />
           </Link>
 
           {/* Desktop Navigation */}
