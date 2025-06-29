@@ -11,8 +11,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-red-500 via-orange-500 to-blue-500 rounded-lg"></div>
-              <span className="text-xl font-bold">InnovateTech</span>
+              <span className="text-xl font-bold">Uddan Innovation</span>
             </div>
             <p className="text-gray-400">
               Transforming businesses through innovative IT solutions and cutting-edge technology.
@@ -114,22 +113,22 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-400">
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4" />
-              <span>contact@innovatetech.com</span>
+              <span>contactUddan@gmail.com</span>
             </div>
             <div className="flex items-center space-x-2">
               <Phone className="h-4 w-4" />
-              <span>+1 (555) 123-4567</span>
+              <span>+977 9820000001</span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="h-4 w-4" />
-              <span>123 Tech Street, Silicon Valley, CA</span>
+              <span>Ramdhuni 05 Jhumka, Sunsari, Koshi</span>
             </div>
           </div>
         </div>
 
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} InnovateTech. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Uddan Innovation. All rights reserved.</p>
         </div>
       </div>
     </footer>
